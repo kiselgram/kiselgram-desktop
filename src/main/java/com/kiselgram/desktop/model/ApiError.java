@@ -1,0 +1,9 @@
+package com.kiselgram.desktop.model;
+
+public class ApiError {
+    private String code;
+    private String message;
+
+    public String getCode() { return code; }
+    public String getMessage() { return message; }
+}
